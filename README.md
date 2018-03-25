@@ -13,11 +13,11 @@ You can see the information of a specific exploit in the console, write the code
 This feature is allowing you to search for a specific ip address and get back usefull information.
 You can see the data and write the data to a file, but take in consideration that the data is wrote to the file in json format.
 - [ 3 ] Shodan Basic Search <br />
-This feature is allowing you to search the Shodan database as you would on the site and see a summary of the potential devices that you are interested in. Also, you can see some more detailed information and write the html code to file if existing.
+This feature is allowing you to search the Shodan database as you would on the site and see a summary of the potential devices, that you are interested in. Also, you can see some more detailed information and write the html code to file if existing.
 Besides that, it includes a facets search.
 #### Censys
 - [ 1 ] Host Search <br />
-This feature is giving you the posibility to search for a specific ip address. Is likely the Shodan Host Search but with Censys you retrieve more information.
+This feature is giving you the posibility to search for a specific ip address. Is like the Shodan Host Search, but with Censys, you retrieve more information.
 - [ 2 ] Censys Basic Search <br />
 This feature will give you 1 page at a time with your specified query and some general information about the devices found. The query can contain the filters that are specified on their [official website](https://www.censys.io/overview#examples).
 
@@ -27,11 +27,12 @@ This feature will give you 1 page at a time with your specified query and some g
 - You will also need to download the Shodan library for python. For that you can simply do a pip install:  ```pip install shodan```.
 #### Censys
 - A Censys account that will give you access to the [API ID](https://censys.io/account/api) and the [SECRET](https://censys.io/account/api). You can create an account [here](https://censys.io/register).
-- You will also need to download the Censys library for python. For that you can simply do a pip install:  ```pip install censys```.
+- You will also need to download the Censys library for python. For that, you can simply do a pip install:  ```pip install censys```.
 
 ## Running it
-After you cloned the repository, you just simply need to run the Shodax.py file as every other python script: ```python Shodax.py```. Now, you will get promped to enter your API ID, SECRET and API key. The first 2 are for Censys and the last is for Shodan. For the first 2, go to the official Censys website and click on [my account/API](https://censys.io/account/api). Just copy/paste those. After that, just go to the Shodans website and copy/paste the API key for your account. After you have entered you API ID, SECRET and API key, you will be promped in the main menu. Good job! Now you can start your searching!
-Observation !!
+After you cloned the repository, you just simply need to run the Shodax.py file as every other python script: ```python Shodax.py```. Now, you will get promped to enter your API ID, SECRET and API key. The first 2 are for Censys and the last is for Shodan. For the first 2, go to the official Censys website and click on [my account/API](https://censys.io/account/api). Just copy/paste those. After that, go to the Shodans website and copy/paste the API key for your account. After you have entered your API ID, SECRET and API key, you will be promped in the main menu. Good job! Now you can start your searching!
+<br />
+Observation !! <br />
 Take in consideration that if you don't have a premium account, you can't use some of the filters and you have limited queries per day. More information can be found [here](https://censys.io/account/billing) and [here](https://developer.shodan.io/billing/signup).
 
 ## Bugs
