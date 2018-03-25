@@ -4,21 +4,21 @@ This is a tool that is written in python with the Shodan's API.
 It is mainly focused to extract sensitive data from the Shodan's database for reconnaissance and to help you find what you are searching for.
 ## Features
 #### Shodan
-- [ 1 ] Exploit Search
+- [ 1 ] Exploit Search <br />
 This feature is allowing you to search for known exploits based on your query(ex: apache,ssh).
 The syntax of the query is the same as on the official Shodan's website. [Here](https://developer.shodan.io/api) is all the filters you can apply.
 Currently, this feature only queries the ExploitDB and the MetasploitDB.
 You can see the information of a specific exploit in the console, write the code to a file and see the code in the console.
-- [ 2 ] Host Search
+- [ 2 ] Host Search <br />
 This feature is allowing you to search for a specific ip address and get back usefull information.
 You can see the data and write the data to a file, but take in consideration that the data is wrote to the file in json format.
-- [ 3 ] Shodan Basic Search
+- [ 3 ] Shodan Basic Search <br />
 This feature is allowing you to search the Shodan database as you would on the site and see a summary of the potential devices that you are interested in. Also, you can see some more detailed information and write the html code to file if existing.
 Besides that, it includes a facets search.
 #### Censys
-- [ 1 ] Host Search
+- [ 1 ] Host Search <br />
 This feature is giving you the posibility to search for a specific ip address. Is likely the Shodan Host Search but with Censys you retrieve more information.
-- [ 2 ] Censys Basic Search
+- [ 2 ] Censys Basic Search <br />
 This feature will give you 1 page at a time with your specified query and some general information about the devices found. The query can contain the filters that are specified on their [official website](https://www.censys.io/overview#examples).
 
 ## What you need in order to run it?
